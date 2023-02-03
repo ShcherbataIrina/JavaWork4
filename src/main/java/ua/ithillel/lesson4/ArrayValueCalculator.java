@@ -1,9 +1,7 @@
 package ua.ithillel.lesson4;
 
 public class ArrayValueCalculator {
-    //private final String[][] myArray= {{"5","4","1","9"},{"5","4","1","9"},{"5","4","1","9"},{"5","4","1","9"}};
     public static final int SIZE_ARRAY = 4;
-    String[][] myArray = {{"5", "7", "1", "9"}, {"5", "8", "1", "7"}, {"6", "2", "1", "10"}, {"17", "8", "11", "12"}};
 
     public int doCalc(String[][] myArray) throws ArraySizeException, ArrayDataException {
 
